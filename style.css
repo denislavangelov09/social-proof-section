@@ -121,7 +121,7 @@ main {
 
 .testimonials-section {
 	display: flex;
-	justify-content: row;
+	flex-direction: column;
 }
 
 .testimonial-card {
