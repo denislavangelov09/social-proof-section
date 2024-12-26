@@ -10,6 +10,7 @@
 	--soft-purple: hsl(303, 10%, 53%);
 	--pink: hsl(333, 80%, 67%);
 	--light-purple: hsl(300, 24%, 96%);
+	--base-font-size: 16px;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: "League Spartan", sans-serif;
+	font-size: 1rem;
 }
 
 img,
@@ -58,7 +60,7 @@ main {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	padding: 100px 15px;
+	padding: 6.25rem 0.9375rem;
 }
 
 .intro-section {
@@ -71,18 +73,18 @@ main {
 .intro-heading {
 	color: var(--dark-purple);
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 2.5rem;
 	line-height: 0.8;
 	max-width: 15ch;
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 }
 
 .intro-description {
 	color: var(--soft-purple);
-	font-size: 15px;
+	font-size: 0.9375rem;
 	max-width: 30ch;
 	font-weight: 500;
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 }
 
 .ratings-section {
@@ -94,29 +96,30 @@ main {
 
 .rating-item {
 	background-color: var(--light-purple);
-	width: 300px;
+	width: 18.75rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin-bottom: 20px;
-	padding: 10px;
-	border-radius: 10px;
+	margin-bottom: 1.25rem;
+	padding: 0.625rem;
+	border-radius: 0.625rem;
 }
 
 .rating-title {
 	color: var(--dark-purple);
-	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 700;
 }
 
 .rating-stars {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 10px;
+	margin-bottom: 0.625rem;
 }
 
 .star-icon {
-	margin: 0 10px;
+	margin: 0 0.625rem;
 }
 
 .testimonials-section {
@@ -129,9 +132,9 @@ main {
 	flex-direction: column;
 	background-color: var(--dark-purple);
 	color: white;
-	margin-bottom: 20px;
-	border-radius: 10px;
-	padding: 40px 30px;
+	margin-bottom: 1.25rem;
+	border-radius: 0.625rem;
+	padding: 2.5rem 1.875rem;
 	height: fit-content;
 	justify-content: flex-start;
 }
@@ -139,16 +142,16 @@ main {
 .testimonial-header {
 	display: flex;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 	text-align: left;
 	flex-shrink: 0;
 }
 
 .testimonial-avatar {
-	width: 50px;
-	height: 50px;
+	width: 3.125rem;
+	height: 3.125rem;
 	border-radius: 50%;
-	margin-right: 20px;
+	margin-right: 1.25rem;
 }
 
 .testimonial-user-name {
@@ -161,22 +164,22 @@ main {
 
 .testimonial-text {
 	text-align: left;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	max-width: 30ch;
-	margin-bottom: 10px;
+	margin-bottom: 0.625rem;
 	flex-shrink: 0;
 }
 
 @media (min-width: 48rem) {
 	main {
 		display: block;
-		padding: 150px 150px;
+		padding: 9.375rem;
 	}
 
 	.content-wrapper {
 		display: flex;
 		justify-content: row;
-		margin-bottom: 30px;
+		margin-bottom: 1.875rem;
 	}
 
 	.intro-section {
@@ -186,29 +189,29 @@ main {
 	}
 
 	.intro-heading {
-		font-size: 60px;
+		font-size: 3.75rem;
 		max-width: 15ch;
 		text-align: left;
 	}
 
 	.intro-description {
-		font-size: 20px;
+		font-size: 1.25rem;
 		max-width: 40ch;
 		text-align: left;
 	}
 
 	.rating-item {
-		width: 500px;
+		width: 31.25rem;
 		flex-direction: row;
-		padding: 15px;
+		padding: 0.9375rem;
 	}
 
 	.rating-item:nth-child(2) {
-		margin-left: 50px;
+		margin-left: 3.125rem;
 	}
 
 	.rating-item:nth-child(3) {
-		margin-left: 100px;
+		margin-left: 6.25rem;
 	}
 
 	.rating-stars {
@@ -216,11 +219,11 @@ main {
 	}
 
 	.rating-stars:nth-child(1) {
-		margin: 0 20px;
+		margin: 0 1.25rem;
 	}
 
 	.star-icon {
-		margin: 0 5px;
+		margin: 0 0.3125rem;
 	}
 
 	.testimonials-section {
@@ -228,15 +231,15 @@ main {
 		flex-direction: row;
 	}
 	.testimonial-card {
-		margin-right: 30px;
-		width: 350px;
+		margin-right: 1.875rem;
+		width: 21.875rem;
 	}
 
 	.testimonial-card:nth-child(2) {
-		margin-top: 20px;
+		margin-top: 1.25rem;
 	}
 
 	.testimonial-card:nth-child(3) {
-		margin-top: 40px;
+		margin-top: 2.5rem;
 	}
 }
