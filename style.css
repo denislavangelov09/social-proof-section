@@ -223,6 +223,10 @@ main {
 		margin: 0 5px;
 	}
 
+	.testimonials-section {
+		display: flex;
+		flex-direction: row;
+	}
 	.testimonial-card {
 		margin-right: 30px;
 		width: 350px;
